@@ -1,6 +1,8 @@
 .ui-left { float: left; }
-.ui-right { float: right; }
+.ui-right { float: right; padding-right: 30px }
 .require { color: #a00; }
+
+.clusterOverview-table { position: relative; top: 35px; }
 
 .uiToolbar {
 	height: 28px;
@@ -9,6 +11,8 @@
 	background: -webkit-linear-gradient(top, #fdfefe, #eaedef);
 	border-bottom: 1px solid #d2d5d7;
 	padding: 3px 10px;
+	position: fixed;
+	width: 100%;
 }
 
 .uiToolbar H2 {
